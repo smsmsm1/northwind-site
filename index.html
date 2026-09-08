@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home — Northwind Studio</title>
+    <meta
+      name="description"
+      content="Northwind Studio builds clear, fast websites for growing teams."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="index.html">Northwind<span>.</span></a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html" class="is-active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Websites that get to the point.</h1>
+          <p>
+            We design and build fast, accessible sites — no bloat, no
+            frameworks you didn't ask for. Just clean HTML, CSS, and a little
+            JavaScript where it earns its place.
+          </p>
+          <p>
+            <a class="btn" href="about.html">About us</a>
+            <a class="btn btn-secondary" href="#services">What we do</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <h2>What we do</h2>
+          <p>Three things, done properly.</p>
+          <div class="cards">
+            <article class="card">
+              <h3>Design</h3>
+              <p>
+                Layouts built around your content, with a type and colour
+                system you can extend yourself.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Build</h3>
+              <p>
+                Hand-written markup that loads instantly and works on every
+                device, screen reader included.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Maintain</h3>
+              <p>
+                Small, predictable updates — so the site still feels new two
+                years from now.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container prose">
+          <h2>Ready to start?</h2>
+          <p>
+            Tell us what you're working on and we'll come back with a short,
+            honest plan — including whether we're the right fit.
+          </p>
+          <p><a class="btn" href="mailto:hello@example.com">Get in touch</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>&copy; <span data-year>2026</span> Northwind Studio</span>
+        <span><a href="about.html">About</a></span>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
